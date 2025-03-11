@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Allow assets/img folder
+!assets/img/
+!assets/img/**
