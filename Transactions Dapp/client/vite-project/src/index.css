@@ -1,0 +1,58 @@
+.box{
+  width: 400px;
+  display: inline;
+
+  margin: 50px;
+  border: 2px solid black;
+  height: 200px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input {
+  margin-top: 40px;
+  margin-left: 110px;
+  
+  
+}
+
+.input input{
+  height: 30px;
+
+  
+}
+.button{
+  margin-top: 20px;
+  margin-left: 120px;
+
+}
+.button button{
+  color: white;
+  background-color: blue;
+  height: 30px;
+  margin: 10px;
+}
+
+#btn2 {
+  color: white;
+  background-color: rgb(230, 14, 43);
+  height: 30px;
+}
+#meta-btn{
+  color: rgb(21, 3, 3);
+  background-color: rgb(61, 250, 23);
+  height: 30px;
+margin-left: 1380px;
+margin-top: 10px;
+margin-right: 15px;
+
+}
+.header{
+  background-color: #0d7150;
+  height: 50px;
+}
