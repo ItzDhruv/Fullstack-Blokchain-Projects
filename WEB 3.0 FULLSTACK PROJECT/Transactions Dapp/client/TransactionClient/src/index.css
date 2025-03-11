@@ -7,7 +7,15 @@
   height: 300px;
   box-shadow: 2px 2px 10px 10px rgb(72, 71, 71);
 }
+/* #connect-fst{
+  margin-right: 20px;
+} */
 
+#bxcnt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .container{
   display: flex;
   justify-content: center;
