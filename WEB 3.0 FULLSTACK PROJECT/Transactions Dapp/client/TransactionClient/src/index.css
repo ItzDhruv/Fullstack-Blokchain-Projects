@@ -2,9 +2,10 @@
   width: 400px;
   display: inline;
 
-  margin: 50px;
+  margin: 150px;
   border: 2px solid black;
-  height: 200px;
+  height: 300px;
+  box-shadow: 2px 2px 10px 10px rgb(72, 71, 71);
 }
 
 .container{
@@ -15,15 +16,17 @@
 }
 
 .input {
-  margin-top: 40px;
+  margin-top: 70px;
   margin-left: 110px;
   
   
 }
-
+.input #in2 {
+  margin-top: 20px;
+}
 .input input{
   height: 30px;
-
+border: 2px solid black;
   
 }
 .button{
@@ -50,6 +53,7 @@
 margin-left: 1380px;
 margin-top: 10px;
 margin-right: 15px;
+width: 110px;
 
 }
 .header{
