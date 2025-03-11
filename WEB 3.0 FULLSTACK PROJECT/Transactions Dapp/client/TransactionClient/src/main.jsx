@@ -6,7 +6,7 @@ import App from './App.jsx'
 // Replace this with any of the networks listed at https://github.com/wevm/viem/blob/main/src/chains/index.ts
 import {base, berachain, polygon, arbitrum, story, mantle} from 'viem/chains';
 import {PrivyProvider} from '@privy-io/react-auth';
-import imgLogo from ''
+import imgLogo from './assets/logo.png'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
   <Providers>
