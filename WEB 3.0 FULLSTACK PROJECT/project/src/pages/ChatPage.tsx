@@ -1,8 +1,7 @@
 
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, useNavigate, useParams, Link } from 'react-router-dom';
-import { Bot, Brain, Command, Cpu, MessageSquare, Rocket, Send, Search, ArrowRight } from 'lucide-react';
-
+import { Bot, Send } from 'lucide-react';
 
 interface Message {
     id: string;
@@ -33,7 +32,9 @@ function ChatPage() {
     const agents = JSON.parse(localStorage.getItem('agents') || '[]') as Agent[];
     const agent = agents.find(a => a.id === agentId);
     const navigate = useNavigate();
+
   
+
     const scrollToBottom = () => {
       messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
     };

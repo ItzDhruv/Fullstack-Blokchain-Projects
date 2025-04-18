@@ -23,7 +23,7 @@ function HomePage() {
   
           
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            Deploy and manage intelligent AI agents that work for you. Streamline your workflow with automated assistance.
+            Deploy and manage decentrlized intelligent AI agents that work for you. Streamline your workflow with automated assistance.
           </p>
           <div className="flex justify-center gap-4">
             <button 
